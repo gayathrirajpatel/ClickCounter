@@ -1,2 +1,12 @@
 # ClickCounter
 This is a simple click counter app to track my number of job applications and also practice my UI skills.
+
+#Installation
+>npx creat-expo-app [ProjectName]ClickCounter
+
+##VScode extensions
+>Babel javascript
+>React Native Tools
+
+##Steps
+>cd [ProjectName]ClickCounter
