@@ -1,7 +1,7 @@
 
 ![alt text](https://github.com/gayathrirajpatel/ClickCounter/blob/main/AwesomeProject/assets/ClickCounter_Banner.png)
 
-[![Last Commit](https://img.shields.io/badge/lastcommit-Jan24-green.svg)](https://choosealicense.com/licenses/mit/)https://github.com/gayathrirajpatel/ClickCounter
+[![Last Commit](https://img.shields.io/badge/lastcommit-Jan24-green.svg)](https://choosealicense.com/licenses/mit/)
 
 This is a simple click counter app to track my number of job applications and also practice my UI skills.
 
