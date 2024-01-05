@@ -1,20 +1,37 @@
+import React, { Component } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button, Alert } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+export default class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      counter: 0
+    };
+  }
+
+  styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });
+
+  incrementCounter() {
+    this.setState({ counter: this.state.counter + 1 });
+  }
+
+  render() {
+    return (
+      <View style={this.styles.container}>
+        <Text>Gayathri's Awesome Project</Text>
+        <Text>Counter: {this.state.counter}</Text>
+        <Button onPress={this.incrementCounter.bind(this)} title='GO' color="#db6782"></Button>
+        <StatusBar style="auto" />
+      </View>
+    );
+  }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
