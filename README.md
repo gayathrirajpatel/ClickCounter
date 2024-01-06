@@ -9,6 +9,11 @@ This is a simple click counter app to track my number of job applications and al
 
 >npx creat-expo-app [ProjectName]ClickCounter
 
+```bash
+expo install react-native-modal
+
+```
+
 ## VScode extensions
 
 >Babel javascript -> for text highlighting
