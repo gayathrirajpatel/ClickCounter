@@ -35,3 +35,12 @@ install above dependencies
 to run server in web
 
 - Applied classes to set the default counter value 
+
+## Deploy
+
+```bash
+homepage: url
+predeploy: npm run build
+deploy: gh-pages -d build
+npm run deploy
+```
