@@ -22,7 +22,7 @@ expo install react-native-modal
 
 ## Steps
 
->cd [ProjectName]ClickCounter
+>cd [ProjectName] ClickCounter
 
 ## To Run Expo App in web
 
